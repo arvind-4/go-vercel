@@ -1,7 +1,7 @@
-package main
+package api
 
 import (
-	"hello-world/cmd/routes"
+	"hello-world/api/routes"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
