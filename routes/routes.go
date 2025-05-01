@@ -11,6 +11,7 @@ func RegisterRoutes(app *gin.Engine) {
 	router := app.Group("/api/v1")
 	{
 		router.GET("/hello", handlers.HelloHandler)
+		router.GET("/date", handlers.DateHandler)
 		router.GET("/health", handlers.HealthHandler)
 	}
 
