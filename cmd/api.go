@@ -17,7 +17,3 @@ func init() {
 func Handler(w http.ResponseWriter, r *http.Request) {
 	app.ServeHTTP(w, r)
 }
-
-func main() {
-	app.Run("0.0.0.0:8888")
-}
