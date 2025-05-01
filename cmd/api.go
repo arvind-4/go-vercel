@@ -1,0 +1,23 @@
+package main
+
+import (
+	"hello-world/cmd/routes"
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
+
+var app *gin.Engine
+
+func init() {
+	app = gin.New()
+	routes.RegisterRoutes(app)
+}
+
+func Handler(w http.ResponseWriter, r *http.Request) {
+	app.ServeHTTP(w, r)
+}
+
+func main() {
+	app.Run("0.0.0.0:8888")
+}
