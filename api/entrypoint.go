@@ -1,4 +1,4 @@
-package api
+package handler
 
 import (
 	"hello-world/api/routes"
