@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"hello-world/api/handlers"
+	"hello-world/handlers"
 
 	"github.com/gin-gonic/gin"
 )

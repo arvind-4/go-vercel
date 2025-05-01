@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"hello-world/api/routes"
+	"hello-world/routes"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
