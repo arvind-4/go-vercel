@@ -9,7 +9,7 @@ A simple Go server running on Vercel infra!
 ```bash
 mkdir ~/Dev/go-vercel -p
 cd ~/Dev/go-vercel
-git clone https://github.com/arvind-4/go-vercel .
+git clone https://github.com/arvind-4/go-vercel.git .
 ```
 
 - Install dependencies
